@@ -2,6 +2,8 @@
 The aim of the Docker-1 project is to make you handle docker and docker-machine, the
 bases to understand the idea of containerization of services.
 
+More detailed information you can see [here] (https://github.com/DianaMukaliyeva/docker-1/blob/master/docker.en.pdf)
+
 First of all we need to install Homebrew on school's Mac:
 ```bash
 rm -rf $HOME/.brew && git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew && export PATH=$HOME/.brew/bin:$PATH && brew update && echo "export PATH=$HOME/.brew/bin:$PATH" >> ~/.zshrc
