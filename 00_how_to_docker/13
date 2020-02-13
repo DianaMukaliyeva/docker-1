@@ -1,0 +1,4 @@
+docker inspect  -f '{{join .Config.Env n}}' spawning-pool
+
+#	join concatenates a list of strings to create a single string. It puts a separator between each element in the list.
+#	https://docs.docker.com/config/formatting/

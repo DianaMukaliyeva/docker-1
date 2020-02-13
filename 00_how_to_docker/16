@@ -1,0 +1,4 @@
+docker logs -f spawning-pool
+
+#	docker logs			Fetch the logs of a container
+#	--follow , -f		Follow log output
