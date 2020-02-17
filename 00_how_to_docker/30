@@ -1,0 +1,4 @@
+docker service scale -d marines=20
+
+#	docker service scale	Scale one or multiple replicated services
+#	--detach , -d			Exit immediately instead of waiting for the service to converge

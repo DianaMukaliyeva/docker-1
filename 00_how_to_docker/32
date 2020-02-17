@@ -1,0 +1,5 @@
+docker rm -f $(docker ps -aq) 
+
+#	docker rm 			Remove one or more containers.
+#	--quiet , -q		Only display IDs
+#	docker ps -a
