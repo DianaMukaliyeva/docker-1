@@ -1,0 +1,10 @@
+docker service create -d --name orbital-command --network overmind -e RABBITMQ_DEFAULT_USER=root -e RABBITMQ_DEFAULT_PASS=root rabbitmq
+
+#	-d				Exit immediately instead of waiting for the service to converge
+#	--name			Service name
+#	--network		Network attachments
+#	https://hub.docker.com/_/rabbitmq
+#	If you wish to change the default username and password of guest / guest,
+#	you can do so with the RABBITMQ_DEFAULT_USER and RABBITMQ_DEFAULT_PASS environmental variables:
+#	$ docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
+#	docker service ls

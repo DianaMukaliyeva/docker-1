@@ -1,0 +1,7 @@
+docker network create --internal -d overlay overmind
+
+#	--internal		-	By default, when you connect a container to an overlay network,
+#						Docker also connects a bridge network to it to provide external connectivity.
+#						If you want to create an externally isolated overlay network, you can specify the --internal option.
+#	--driver , -d		Driver to manage the Network
+#	-d overlay			If you want to create a network that spans multiple Docker hosts each running an Engine, you must create an overlay network.
