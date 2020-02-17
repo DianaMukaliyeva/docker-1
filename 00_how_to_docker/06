@@ -5,8 +5,8 @@ docker run -d -p 5000:80 --name overlord --restart=always nginx
 #Options:
 # --detach , -d			Run container in background and print container ID
 # --publish , -p		Publish a container’s port(s) to the host
-# --name				Assign a name to the container
+# --name			Assign a name to the container
 # --restart=always		Always restart the container regardless of the exit status.
-						# When you specify always, the Docker daemon will try to restart 
-						# the container indefinitely. The container will also always start
-						# on daemon startup, regardless of the current state of the container.
+					# When you specify always, the Docker daemon will try to restart 
+					# the container indefinitely. The container will also always start
+					# on daemon startup, regardless of the current state of the container.

@@ -1,14 +1,14 @@
 docker run -d --name spawning-pool --restart=on-failure:5 -v hatchery:/var/lib/mysql -e MYSQL_DATABASE=zerglings -e MYSQL_ROOT_PASSWORD=Kerrigan mysql  --default-authentication-plugin=mysql_native_password
 
 # --detach , -d							Run container in background and print container ID
-# --name									Assign a name to the container
+# --name							Assign a name to the container
 # --restart=on-failure[:max-retries				Restart only if the container exits with a non-zero exit status.
-#									Optionally, limit the number of restart retries the Docker daemon attempts.
+#								Optionally, limit the number of restart retries the Docker daemon attempts.
 # --volume , -v							Bind mount a volume
-# /var/lib/mysql							where MySQL by default will write its data files.
+# /var/lib/mysql						where MySQL by default will write its data files.
 # --env , -e							Set environment variables
 # MYSQL_ROOT_PASSWORD 						This variable is mandatory and specifies the password that will be set for the MySQL root superuser account.
-# MYSQL_DATABASE 							This variable is optional and allows you to specify the name of a database to be created on image startup.
+# MYSQL_DATABASE 						This variable is optional and allows you to specify the name of a database to be created on image startup.
 # --default-authentication-plugin=mysql_native_password		MySQL 8 changed the password authentication method.
 #								You're looking for the mysql_native_password plugin https://dev.mysql.com/doc/refman/8.0/en/native-pluggable-authentication.html
 # from https://hub.docker.com/_/mysql and from https://docs.docker.com/engine/reference/commandline/run/
