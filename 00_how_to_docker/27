@@ -1,4 +1,4 @@
 docker service logs -f  engineering-bay
 
-#	docker service logs	Fetch the logs of a service or task
-#	The docker service logs --follow command will continue streaming the new output from the service’s STDOUT and STDERR
+# docker service logs	Fetch the logs of a service or task
+# The docker service logs --follow command will continue streaming the new output from the service’s STDOUT and STDERR

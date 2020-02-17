@@ -1,5 +1,5 @@
 docker-machine rm -y Aiur
 
-#	docker-machine rmRemove a machine. This will remove the local reference as well as delete it on the cloud provider or virtualization management platform.
-#	https://docs.docker.com/v17.09/machine/reference/rm/
-#	docker-machine ls
+# docker-machine rmRemove a machine. This will remove the local reference as well as delete it on the cloud provider or virtualization management platform.
+# https://docs.docker.com/v17.09/machine/reference/rm/
+# docker-machine ls

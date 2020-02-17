@@ -1,5 +1,5 @@
 docker service rm $(docker service ls -q)
 
-#	--quiet , -q		Only display IDs
-#	docker service rm	Remove one or more services
-#	docker service ls
+# --quiet , -q		Only display IDs
+# docker service rm		Remove one or more services
+# docker service ls
