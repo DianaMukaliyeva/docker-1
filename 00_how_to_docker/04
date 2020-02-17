@@ -1,1 +1,3 @@
 docker pull hello-world
+
+#  docker pull image    you just pull the image but you are not running it
