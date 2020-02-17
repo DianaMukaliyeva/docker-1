@@ -1,9 +1,9 @@
 docker service create -d --name engineering-bay --network overmind --replicas=2 -e OC_USERNAME=root -e OC_PASSWD=root 42school/engineering-bay
 
-#	--replicas		Use the --replicas flag to set the number of replica tasks for a replicated service
-#	https://hub.docker.com/r/42school/engineering-bay/
-#	You must have an orbital-command running on your host or swarm, accessible with the same name into your network.
-#	To connect to this orbital-command, you must set a
+# --replicas		Use the --replicas flag to set the number of replica tasks for a replicated service
+# https://hub.docker.com/r/42school/engineering-bay/
+# You must have an orbital-command running on your host or swarm, accessible with the same name into your network.
+# To connect to this orbital-command, you must set a
 
-#	OC_USERNAME : Username used to access to orbital-command
-#	OC_PASSWD : Password used to access to orbital-command
+# OC_USERNAME : Username used to access to orbital-command
+# OC_PASSWD : Password used to access to orbital-command

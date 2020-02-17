@@ -1,6 +1,6 @@
 docker swarm init --advertise-addr $(docker-machine ip Char)
 
-#	The --advertise-addr flag configures the manager node to publish its address.
-#	The other nodes in the swarm must be able to access the manager at the IP address.
-#	docker node ls	- command to view information about nodes
-#	docker info 	- to view the current state of the swarm
+# The --advertise-addr flag configures the manager node to publish its address.
+# The other nodes in the swarm must be able to access the manager at the IP address.
+# docker node ls		command to view information about nodes
+# docker info			to view the current state of the swarm

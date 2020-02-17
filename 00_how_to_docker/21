@@ -1,4 +1,4 @@
 docker-machine create --driver virtualbox Aiur
 
-#	Run this command to configure your shell: 
-#	eval $(docker-machine env Aiur)
+# Run this command to configure your shell: 
+# eval $(docker-machine env Aiur)

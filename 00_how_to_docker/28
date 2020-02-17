@@ -1,8 +1,8 @@
 docker service create -d --name marines --network overmind --replicas=2 -e OC_USERNAME=root -e OC_PASSWD=root 42school/marine-squad
 
-#	https://hub.docker.com/r/42school/marine-squad/
-#	You must have an orbital-command running on your host or swarm, accessible with the same name into your network.
-#	To connect to this orbital-command, you must set a
+# https://hub.docker.com/r/42school/marine-squad/
+# You must have an orbital-command running on your host or swarm, accessible with the same name into your network.
+# To connect to this orbital-command, you must set a
 
-#	OC_USERNAME : Username used to access to orbital-command
-#	OC_PASSWD : Password used to access to orbital-command
+# OC_USERNAME : Username used to access to orbital-command
+# OC_PASSWD : Password used to access to orbital-command

@@ -1,3 +1,3 @@
 apt-get update -y && apt-get upgrade -y && apt-get install -y build-essential git
 
-#  build-essential package contains an informational list of packages which are considered essential for building Debian packages including gcc compiler, make and other required tools
+# build-essential package contains an informational list of packages which are considered essential for building Debian packages including gcc compiler, make and other required tools
