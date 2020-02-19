@@ -1,4 +1,5 @@
-docker inspect  -f '{{join .Config.Env n}}' spawning-pool
+docker inspect  -f '{{join .Config.Env "\n"}}' spawning-pool
 
+# --format , -f		Format the output using the given Go template
 # join concatenates a list of strings to create a single string. It puts a separator between each element in the list.
 # https://docs.docker.com/config/formatting/

@@ -1,6 +1,4 @@
-docker swarm join-token worker
-eval $(docker-machine env Aiur)
-docker swarm join --token <some token from command 2 above> 192.168.99.100:2377
+docker-machine ssh Aiur "docker swarm join --token $(docker swarm join-token worker -q) $(docker-machine ip Char):2377"
 
 # docker swarm join-token worker	to get command with right fingerprint
 # eval $(docker-machine env Aiur)	configure shell for Aiur
