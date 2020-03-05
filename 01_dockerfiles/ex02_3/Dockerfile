@@ -1,4 +1,4 @@
-FROM ft-rails:on-build
+FROM ft-rails:on-build3
 
 EXPOSE 3000
 
