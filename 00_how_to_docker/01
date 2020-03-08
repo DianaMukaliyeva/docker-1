@@ -3,3 +3,6 @@ docker-machine create --driver virtualbox Char
 # --driver flag to indicate which provider (VirtualBox, DigitalOcean, AWS, etc.) the machine should be created on,
 #		and an argument to indicate the name of the created machine
 # docker-machine start Char	to start machine
+
+
+#FINAL VERSION
